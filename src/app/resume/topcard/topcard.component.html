@@ -27,15 +27,19 @@
         </li>
         <li *ngIf="info.portfolio">
           <span class="fa fa-bookmark"></span>
-          <a href="https://{{ info.portfolio }}" target="_blank">buhon.fr</a>
+          <a href="{{ info.portfolio }}" target="_blank">website</a>
         </li>
         <li>
           <span class="fa fa-linkedin-square"></span>
-          <a href="https://www.{{ info.linkedin }}" target="_blank">{{ info.linkedin }}</a>
+          <a href="https://www.{{ info.linkedin }}" target="_blank">{{
+            info.linkedin
+          }}</a>
         </li>
         <li>
           <span class="fa fa-github"></span>
-          <a href="https://{{ info.github }}" target="_blank">{{ info.github }}</a>
+          <a href="https://{{ info.github }}" target="_blank">{{
+            info.github
+          }}</a>
         </li>
       </ul>
     </div>

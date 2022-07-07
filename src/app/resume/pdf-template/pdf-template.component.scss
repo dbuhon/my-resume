@@ -1,102 +1,118 @@
-@import './../../../variables.scss';
+@import "./../../../variables.scss";
 
 @font-face {
-    font-family: "DejaVu Sans";
-    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
+  font-family: "DejaVu Sans";
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf")
+    format("truetype");
 }
 
 @font-face {
-    font-family: "DejaVu Sans";
-    font-weight: bold;
-    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Bold.ttf") format("truetype");
+  font-family: "DejaVu Sans";
+  font-weight: bold;
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Bold.ttf")
+    format("truetype");
 }
 
 @font-face {
-    font-family: "DejaVu Sans";
-    font-style: italic;
-    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+  font-family: "DejaVu Sans";
+  font-style: italic;
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf")
+    format("truetype");
 }
 
 @font-face {
-    font-family: "DejaVu Sans";
-    font-weight: bold;
-    font-style: italic;
-    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+  font-family: "DejaVu Sans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf")
+    format("truetype");
 }
 
 :host {
-    display: flex;
-    width: 595px;
-    overflow-y: visible;
-    background: white;
-    font-family: "DejaVu Sans", "Arial", sans-serif;
+  display: flex;
+  width: 595px;
+  overflow-y: visible;
+  background: white;
+  font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
 * /deep/ {
-    * {
-        font-size: 8px !important;
+  * {
+    font-size: 8px !important;
 
-        h1, h2, h3,  h4 {
-            font-weight: bold;
-            margin: 0px !important;
-        }
-
-        h1 {
-            font-size: 14px !important;
-            color: $dark;
-        }
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-weight: bold;
+      margin: 0px !important;
     }
 
-    app-presentation {
-        padding: 15px 0 5px !important;
-
-        /deep/ {
-            app-label .title {
-                font-size: 12px !important;
-            }
-
-            .tags {
-                min-width: auto !important;
-                flex-wrap: unset !important;
-
-                .tag, .link {
-                    margin: 1px 2px 1px 0 !important;
-                    opacity: 0.9;
-                }
-            }
-
-            .container {
-                height: 15px;
-            }
-        }
+    h1 {
+      font-size: 14px !important;
+      color: $dark;
     }
+  }
+
+  app-presentation {
+    padding: 15px 0 5px !important;
+
+    /deep/ {
+      app-label .title {
+        font-size: 12px !important;
+      }
+
+      .tags {
+        min-width: auto !important;
+        flex-wrap: unset !important;
+
+        .tag,
+        .link {
+          margin: 1px 2px 1px 0 !important;
+          opacity: 0.9;
+        }
+      }
+
+      .container {
+        height: 15px;
+      }
+    }
+  }
 }
 
 .singlePage {
-    display: block;
-    min-height: 842px !important;
+  display: block;
+  min-height: 842px !important;
 }
 
 .pdfPage {
-    display: flex;
-    margin-left: 200px;
+  display: flex;
+  margin-left: 200px;
 }
 
 .pdfPageElements {
-    width: 100%;
-    margin: 0 25px;
-    float: right;
-    max-width: 350px;
+  width: 100%;
+  margin: 0 25px;
+  float: right;
+  max-width: 350px;
 
-    * /deep/ h1 {
-        margin-left: -10px !important;
+  * /deep/ h1 {
+    margin-left: -10px !important;
+  }
+
+  * /deep/ .logo {
+    min-width: 0;
+
+    img {
+      max-width: 25px !important;
     }
+  }
 }
 
-@import './styles/pdf.topcard.scss';
-@import './styles/pdf.skills.scss';
-@import './styles/pdf.career.scss';
-@import './styles/pdf.projects.scss';
-@import './styles/pdf.education.scss';
-@import './styles/pdf.hobbies.scss';
-@import './styles/pdf.languages.scss';
+@import "./styles/pdf.topcard.scss";
+@import "./styles/pdf.skills.scss";
+@import "./styles/pdf.career.scss";
+@import "./styles/pdf.projects.scss";
+@import "./styles/pdf.education.scss";
+@import "./styles/pdf.hobbies.scss";
+@import "./styles/pdf.languages.scss";

@@ -11,63 +11,27 @@
   },
   "info": {
     "name": "Dimitri Buhon",
-    "job": "Web tech lead",
-    "company": "LVL Studio",
+    "job": "Senior software engineer",
+    "company": "Unity Technologies",
     "location": "Montreal, Québec",
     "email": "dimitri.buhon@gmail.com",
     "linkedin": "linkedin.com/in/dbuhon",
     "github": "github.com/dbuhon",
-    "portfolio": "buhon.fr",
-    "about": ["I like to learn, to work on cool projects, cookies and cats."]
+    "portfolio": "http://buhon.42web.io",
+    "about": [
+      "My goal when writing code is to find simple and elegant solutions and to avoid unnecessary complexity and abstractions until we need them. I like to think of software systems in the simplest of terms and to use easy to grasp concepts to create robust solutions."
+    ]
   },
   "abilities": [
     {
-      "title": "",
+      "title": "Web",
       "skills": [
         {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
-          "level": 80
-        },
-        {
-          "techno": "Java",
-          "detail": "JavaFx, Swing, Maven",
-          "level": 80
-        },
-        {
-          "techno": "C++",
-          "detail": "Algorithms, QT",
-          "level": 60
-        },
-        {
-          "techno": "Unity",
-          "detail": "Hololens",
-          "level": 50
-        },
-        {
-          "techno": "SQL",
-          "level": 80
-        },
-        {
-          "techno": "Code testing",
-          "level": 80
-        }
-      ]
-    },
-    {
-      "title": "Web (front-end)",
-      "skills": [
-        {
-          "techno": "AngularJS",
-          "level": 70
-        },
-        {
-          "techno": "Angular",
-          "detail": "2/4/5",
+          "techno": "React",
           "level": 100
         },
         {
-          "techno": "React",
+          "techno": "JavaScript / TypeScript",
           "level": 100
         },
         {
@@ -76,7 +40,8 @@
           "level": 100
         },
         {
-          "techno": "JavaScript / TypeScript",
+          "techno": "Testing",
+          "detail": "Jest, RTL, Cypress",
           "level": 100
         }
       ]
@@ -102,13 +67,25 @@
         {
           "techno": "Git",
           "level": 100
-        },
+        }
+      ]
+    },
+    {
+      "title": "Others",
+      "skills": [
         {
-          "techno": "TFS",
+          "techno": "C#",
+          "detail": ".NET Framework, Mono",
           "level": 80
         },
         {
-          "techno": "SVN",
+          "techno": "Java",
+          "detail": "JavaFx, Swing, Maven",
+          "level": 80
+        },
+        {
+          "techno": "Unity",
+          "detail": "Hololens",
           "level": 80
         }
       ]
@@ -116,10 +93,23 @@
   ],
   "career": [
     {
+      "company": "Unity Technologies",
+      "location": "Montreal, Québec",
+      "status": "Senior software engineer",
+      "date": "2020 - Today",
+      "logo": "unity.png",
+      "quote": "Unity is the world's leading platform for creating and operating interactive, real-time 3D (RT3D) content.",
+      "description": [
+        "Leading the architecture rewrite of the ads sdk webview facing millions of users daily.",
+        "Heavily contributing to <a href='https://dashboard.unity3d.com' target='_blank'>Unity dashboard</>.",
+        "Helping maintain our frontend library of components."
+      ]
+    },
+    {
       "company": "LVL Studio",
       "location": "Montreal, Québec",
-      "status": "Web tech lead",
-      "date": "2018 - Today",
+      "status": "Senior software engineer",
+      "date": "2018 - 2020",
       "logo": "lvl.png",
       "quote": "LVL designs, builds and operates media technology solutions for the global media and entertainment market.",
       "description": [
@@ -131,7 +121,7 @@
     {
       "company": "VINCI Construction France (Neos-SDI)",
       "location": "Paris, France",
-      "status": "Software engineer",
+      "status": "Senior software engineer",
       "date": "2017 - 2018",
       "logo": "vcf.png",
       "quote": "VINCI Construction designs and builds structures and infrastructure that address major issues facing society - global warming, population growth and increasing mobility.",
@@ -157,7 +147,7 @@
     {
       "company": "AUSY",
       "location": "Sèvres, France",
-      "status": "Java developer",
+      "status": "Software engineer",
       "date": "2015 - 2016",
       "logo": "ausy.png",
       "quote": "AUSY is an international Consulting and Engineering firm in Advanced Technologies with a business model based on innovation and complementary services between information systems and industrial systems.",
@@ -170,63 +160,12 @@
     {
       "company": "Institute for Brain and Spinal Cord",
       "location": "Paris, France",
-      "status": "Developer",
+      "status": "Software engineer",
       "date": "2014 - 2015",
       "logo": "icm.png",
       "quote": "The Institute for Brain and Spinal Cord is an international brain and spinal cord research center whose innovative concept and structure make it the only institute of its kind in the world.",
       "description": [
         "Intranet development with <strong>SharePoint</strong>.<br/>Project management, evaluation of users needs, and leading training sessions.<br/>Creation of sites, components and rights management.<br/>Writing technical documentation."
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "Labyrinth",
-      "detail": "AI project",
-      "tags": ["Java", "JavaFx", "Algorithmic"],
-      "quote": "Staged two animated characters in a labyrinth. Both characters must find each other in an environment that is entirely, partially or not observable.",
-      "description": [
-        "Built in <strong>Java</strong>/<strong>JavaFx</strong>.",
-        "Implementation of several search algorithms:<br/> - Breadth first search <strong>(BFS)</strong>, <strong>multi-directional BFS</strong><br/> - Depth first search <strong>(DFS)</strong>,<br/> - <strong>Dijkstra<strong>, <strong>A*</strong>"
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/RomeoEtJuliette",
-          "value": "github.com/dbuhon"
-        }
-      ]
-    },
-    {
-      "title": "Sudoku",
-      "detail": "Sudokus builder and solver",
-      "tags": ["C#", "WPF", "Algorithmic"],
-      "quote": "Utility of creation and resolution of sudokus.",
-      "description": [
-        "Development in <strong>C#</strong> of a tool that generates, validates and solves Sudoku files of different sizes (9*9, 16*16, ...).<br/>Implementation of a <strong>backtracking</strong> algorithm."
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/sudoku-solver",
-          "value": "github.com/dbuhon"
-        }
-      ]
-    },
-    {
-      "title": "Radius",
-      "detail": "Java Online File Explorer",
-      "tags": ["Java", "Java EE", "MongoDB"],
-      "quote": "Browser and host of files online.",
-      "description": [
-        "Online file hosting platform built in <strong>Java EE</strong>.<br/>The application allows users to publish files and organize them in a tree structure.<br/>Management of users accounts.<br/>Front-end made in <strong>HTML5, CSS3, JavaScript and JQuery</strong>."
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/JavaOnlineFileExplorer",
-          "value": "github.com/dbuhon"
-        }
       ]
     }
   ],
@@ -282,8 +221,7 @@
     },
     {
       "lang": "English",
-      "level": "Secondary language",
-      "certification": "TOEIC",
+      "level": "Bilingual",
       "flag": "uk.svg"
     }
   ]

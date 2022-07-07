@@ -11,65 +11,25 @@
   },
   "info": {
     "name": "Dimitri Buhon",
-    "job": "Lead technique web",
-    "company": "LVL Studio",
+    "job": "Ingénieur logiciels senior",
+    "company": "Unity Technologes",
     "location": "Montréal, Québec",
     "email": "dimitri.buhon@gmail.com",
     "linkedin": "linkedin.com/in/dbuhon",
     "github": "github.com/dbuhon",
-    "portfolio": "buhon.fr",
-    "about": [
-      "Passionné par l'informatique et curieux, je suis généralement interessé par ce qui a trait aux nouvelles technologies. J'aime apprendre, travailler en équipe et fais toujours preuve d'application dans mon travail."
-    ]
+    "portfolio": "http://buhon.42web.io",
+    "about": ["Salut !"]
   },
   "abilities": [
     {
-      "title": "",
+      "title": "Web",
       "skills": [
-        {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
-          "level": 100
-        },
-        {
-          "techno": "Java",
-          "detail": "JavaFx, Swing, Maven",
-          "level": 80
-        },
-        {
-          "techno": "C++",
-          "detail": "Algorithmique, QT",
-          "level": 60
-        },
-        {
-          "techno": "Unity",
-          "detail": "Hololens",
-          "level": 50
-        },
-        {
-          "techno": "SQL",
-          "level": 80
-        },
-        {
-          "techno": "Écriture de tests",
-          "level": 80
-        }
-      ]
-    },
-    {
-      "title": "Web (front)",
-      "skills": [
-        {
-          "techno": "AngularJS",
-          "level": 70
-        },
-        {
-          "techno": "Angular",
-          "detail": "2/4/5",
-          "level": 100
-        },
         {
           "techno": "React",
+          "level": 100
+        },
+        {
+          "techno": "JavaScript / TypeScript",
           "level": 100
         },
         {
@@ -78,14 +38,14 @@
           "level": 100
         },
         {
-          "techno": "JavaScript / TypeScript",
-          "detail": "ECMAScript 5 & 6",
+          "techno": "Testing",
+          "detail": "Jest, RTL, Cypress",
           "level": 100
         }
       ]
     },
     {
-      "title": "Mobile et embarqué",
+      "title": "Mobile",
       "skills": [
         {
           "techno": "Java Android",
@@ -100,18 +60,30 @@
       ]
     },
     {
-      "title": "Gestion de versions",
+      "title": "Version control systems",
       "skills": [
         {
           "techno": "Git",
           "level": 100
-        },
+        }
+      ]
+    },
+    {
+      "title": "Others",
+      "skills": [
         {
-          "techno": "TFS",
+          "techno": "C#",
+          "detail": ".NET Framework, Mono",
           "level": 80
         },
         {
-          "techno": "SVN",
+          "techno": "Java",
+          "detail": "JavaFx, Swing, Maven",
+          "level": 80
+        },
+        {
+          "techno": "Unity",
+          "detail": "Hololens",
           "level": 80
         }
       ]
@@ -119,10 +91,22 @@
   ],
   "career": [
     {
+      "company": "Unity Technologies",
+      "location": "Montreal, Québec",
+      "status": "Ingénieur logiciels senior",
+      "date": "2020 - Aujourd'hui",
+      "logo": "unity.png",
+      "description": [
+        "Architecture de la webview pour ads sdk.",
+        "Contribution au <a href='https://dashboard.unity3d.com' target='_blank'>Dashboard Unity</>.",
+        "Maintenance de notre librairie de composants frontend."
+      ]
+    },
+    {
       "company": "LVL Studio",
       "location": "Montréal, Québec",
-      "status": "Lead technique web",
-      "date": "2018 - Aujourd'hui",
+      "status": "Ingénieur logiciels senior",
+      "date": "2018 - 2020",
       "logo": "lvl.png",
       "quote": "LVL Studio conçoit et développe des vitrines média intelligentes pour l’industrie du divertissement à l’aide de sa Plateforme E2™.",
       "description": [
@@ -133,7 +117,7 @@
     {
       "company": "VINCI Construction France (Neos-SDI)",
       "location": "Paris, France",
-      "status": "Ingénieur logiciels",
+      "status": "Ingénieur logiciels senior",
       "date": "2017 - 2018",
       "logo": "vcf.png",
       "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, réunit un ensemble unique de compétences dans les domaines du bâtiment, du génie civil, de l'hydraulique et des métiers de spécialités.",
@@ -164,7 +148,7 @@
     {
       "company": "AUSY",
       "location": "Sèvres, France",
-      "status": "Développeur Java",
+      "status": "Ingénieur logiciels",
       "date": "2015 - 2016",
       "logo": "ausy.png",
       "quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies.",
@@ -177,62 +161,12 @@
     {
       "company": "Institut du Cerveau et de la Moelle épinière",
       "location": "Paris, France",
-      "status": "Développeur",
+      "status": "Ingénieur logiciels",
       "date": "2014 - 2015",
       "logo": "icm.png",
       "quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais.",
       "description": [
         "Développement de l’Intranet sous <strong>SharePoint 2013</strong>.<br/>Prise en charge du projet et collecte du besoin.<br/>Création de sites et de leurs composants, gestion des droits et fonctionnalités.<br/>Rédaction de documentation technique et formation donnée aux utilisateurs."
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "Labyrinthe",
-      "detail": "Projet d'intelligence artificielle",
-      "tags": ["Java", "JavaFx", "Algorithmique"],
-      "quote": "Mise en scène deux personnages animés (Roméo et Juliette) dans un labyrinthe. Les deux personnages doivent se retrouver dans un environnement qui sera selon le scénario, entièrement, partiellement ou nullement observable.",
-      "description": [
-        "Réalisé en <strong>Java</strong>, <strong>JavaFx</strong>, implémentation de plusieurs algorithmes de recherche :<br/> - Parcours en largeur <strong>BFS</strong> (breadth first search), <strong>BFS multi-directionnel</strong><br/> - Parcours en profondeur <strong>DFS</strong> (depth first search),<br/> - Algorithme de <strong>Dijkstra</strong>, <strong>A*</strong"
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/RomeoEtJuliette",
-          "value": "github.com/dbuhon"
-        }
-      ]
-    },
-    {
-      "title": "Sudoku",
-      "detail": "Générateur et résolveur de sudokus",
-      "tags": ["C#", "WPF", "Algorithmique"],
-      "quote": "Utilitaire de création et résolution de sudokus.",
-      "description": [
-        "Réalisation en <strong>C#</strong> d'un utilitaire de génération, validation et résolution de fichiers de Sudokus de  différente taille (9*9, 16*16, ...).<br/> Implémentation d'un algorithme de <strong>backtracking</strong>."
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/sudoku-solver",
-          "value": "github.com/dbuhon"
-        }
-      ]
-    },
-    {
-      "title": "Radius",
-      "detail": "Java Online File Explorer",
-      "tags": ["Java", "Java EE", "MongoDB"],
-      "quote": "Explorateur et hébergeur de fichiers en ligne.",
-      "description": [
-        "Plateforme d'hébergement de fichiers en ligne réalisée en <strong>Java EE</strong>.<br/> L'application permet de publier des fichiers et de les organiser dans une arborescence.<br/>Fonctionne avec un système de comptes.<br/>Front réalisé en <strong>HTML5, CSS3, JavaScript, JQuery</strong>."
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/JavaOnlineFileExplorer",
-          "value": "github.com/dbuhon"
-        }
       ]
     }
   ],
@@ -288,8 +222,7 @@
     },
     {
       "lang": "Anglais",
-      "level": "Professionnel",
-      "certification": "TOEIC",
+      "level": "Bilingue",
       "flag": "uk.svg"
     }
   ]

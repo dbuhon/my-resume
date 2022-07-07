@@ -1,7 +1,16 @@
 <kendo-pdf-export #pdf paperSize="a4">
   <div class="pdfPage">
-    <ng-template #template kendoPDFTemplate let-pageNum="pageNum" let-totalPages="totalPages">
-      <app-topcard *ngIf="resume" [global]="resume.global" [info]="resume.info"></app-topcard>
+    <ng-template
+      #template
+      kendoPDFTemplate
+      let-pageNum="pageNum"
+      let-totalPages="totalPages"
+    >
+      <app-topcard
+        *ngIf="resume"
+        [global]="resume.global"
+        [info]="resume.info"
+      ></app-topcard>
       <app-languages
         *ngIf="resume"
         [global]="resume.global"
@@ -13,15 +22,25 @@
     <ng-container *ngTemplateOutlet="template"></ng-container>
 
     <div class="pdfPageElements">
-      <app-skills *ngIf="resume" [global]="resume.global" [abilities]="resume.abilities" class="page"></app-skills>
-      <app-career *ngIf="resume" [global]="resume.global" [jobs]="resume.career" class="page"></app-career>
+      <app-skills
+        *ngIf="resume"
+        [global]="resume.global"
+        [abilities]="resume.abilities"
+        class="page"
+      ></app-skills>
+      <app-career
+        *ngIf="resume"
+        [global]="resume.global"
+        [jobs]="resume.career"
+        class="page"
+      ></app-career>
       <app-education
         *ngIf="resume"
         [global]="resume.global"
         [education]="resume.education"
         class="page"
       ></app-education>
-      <app-projects *ngIf="resume" [global]="resume.global" [projects]="resume.projects" class="page"></app-projects>
+      <!-- <app-projects *ngIf="resume" [global]="resume.global" [projects]="resume.projects" class="page"></app-projects> -->
     </div>
   </div>
 </kendo-pdf-export>

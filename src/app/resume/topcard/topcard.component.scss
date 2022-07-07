@@ -1,4 +1,4 @@
-@import './../../../variables.scss';
+@import "./../../../variables.scss";
 
 :host {
   min-height: 200px;
@@ -34,7 +34,7 @@
     border: 3px solid white;
     border-radius: 100%;
     background-color: white;
-    background-image: url('./../../../assets/images/cat.jpg');
+    background-image: url("./../../../assets/images/cat.jpg");
     background-position: center;
     background-size: cover;
     background-color: $third;
