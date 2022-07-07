@@ -1,9 +1,34 @@
-<app-topcard (downloadPDF)="downloadPDF()" *ngIf="resume" [global]="resume.global" [info]="resume.info"></app-topcard>
-<app-skills *ngIf="resume" [global]="resume.global" [abilities]="resume.abilities" class="page"></app-skills>
-<app-career *ngIf="resume" [global]="resume.global" [jobs]="resume.career" class="page"></app-career>
-<app-education *ngIf="resume" [global]="resume.global" [education]="resume.education" class="page"></app-education>
-<app-projects *ngIf="resume" [global]="resume.global" [projects]="resume.projects" class="page"></app-projects>
-<app-languages *ngIf="resume" [global]="resume.global" [languages]="resume.languages" class="page"></app-languages>
+<app-topcard
+  (downloadPDF)="downloadPDF()"
+  *ngIf="resume"
+  [global]="resume.global"
+  [info]="resume.info"
+></app-topcard>
+<app-skills
+  *ngIf="resume"
+  [global]="resume.global"
+  [abilities]="resume.abilities"
+  class="page"
+></app-skills>
+<app-career
+  *ngIf="resume"
+  [global]="resume.global"
+  [jobs]="resume.career"
+  class="page"
+></app-career>
+<app-education
+  *ngIf="resume"
+  [global]="resume.global"
+  [education]="resume.education"
+  class="page"
+></app-education>
+<!-- <app-projects *ngIf="resume" [global]="resume.global" [projects]="resume.projects" class="page"></app-projects> -->
+<app-languages
+  *ngIf="resume"
+  [global]="resume.global"
+  [languages]="resume.languages"
+  class="page"
+></app-languages>
 <!-- <app-hobbies *ngIf="resume" class="page"></app-hobbies> -->
 
 <app-pdf-template ng-if="!environment.production" #pdf></app-pdf-template>
