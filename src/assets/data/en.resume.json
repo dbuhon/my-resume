@@ -11,13 +11,12 @@
   },
   "info": {
     "name": "Dimitri Buhon",
-    "job": "Senior software engineer",
-    "company": "Unity Technologies",
+    "job": "Lead developer",
+    "company": "Arctic Wolf Networks",
     "location": "Montreal, Québec",
     "email": "dimitri.buhon@gmail.com",
     "linkedin": "linkedin.com/in/dbuhon",
     "github": "github.com/dbuhon",
-    "portfolio": "http://buhon.42web.io",
     "about": [
       "My goal when writing code is to find simple and elegant solutions and to avoid unnecessary complexity and abstractions until we need them. I like to think of software systems in the simplest of terms and to use easy to grasp concepts to create robust solutions."
     ]
@@ -41,23 +40,12 @@
         },
         {
           "techno": "Testing",
-          "detail": "Jest, RTL, Cypress",
+          "detail": "Vitest, Jest, RTL, Playwright, Cypres",
           "level": 100
-        }
-      ]
-    },
-    {
-      "title": "Mobile",
-      "skills": [
-        {
-          "techno": "Java Android",
-          "detail": "4/5/6/7",
-          "level": 70
         },
         {
-          "techno": "Xamarin",
-          "detail": "Natif iOS",
-          "level": 70
+          "techno": "Nextjs",
+          "level": 80
         }
       ]
     },
@@ -74,35 +62,48 @@
       "title": "Others",
       "skills": [
         {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
+          "techno": "SQL",
+          "detail": "PostgreSQL",
           "level": 80
         },
         {
-          "techno": "Java",
-          "detail": "JavaFx, Swing, Maven",
+          "techno": "Supabase",
           "level": 80
         },
         {
-          "techno": "Unity",
-          "detail": "Hololens",
-          "level": 80
+          "techno": "Golang",
+          "level": 60
         }
       ]
     }
   ],
   "career": [
     {
+      "company": "Arctic Wolf Networks",
+      "location": "Montreal, Québec",
+      "status": "Lead developer",
+      "date": "2023 - Today",
+      "logo": "arcticwolf.png",
+      "quote": "Arctic Wolf delivers dynamic 24x7 cybersecurity protection tailored to the specific needs of your organization.",
+      "description": [
+        "Leading feature development using React and Golang.",
+        "Architecturing the monorepo with NX.",
+        "Enhancing coding standards across the company.",
+        "Mentoring teams on best practices."
+      ]
+    },
+    {
       "company": "Unity Technologies",
       "location": "Montreal, Québec",
       "status": "Senior software engineer",
-      "date": "2020 - Today",
+      "date": "2020 - 2023",
       "logo": "unity.png",
       "quote": "Unity is the world's leading platform for creating and operating interactive, real-time 3D (RT3D) content.",
       "description": [
-        "Leading the architecture rewrite of the ads sdk webview facing millions of users daily.",
-        "Heavily contributing to <a href='https://dashboard.unity3d.com' target='_blank'>Unity dashboard</>.",
-        "Helping maintain our frontend library of components."
+        "Leading feature development on <a href='https://dashboard.unity3d.com' target='_blank'>Unity dashboard</a>.",
+        "Contributing to the architecture and enhancing the best practices of development.",
+        "Maintaining the frontend library of components.",
+        "Leading the architecture rewrite of the ads sdk webview facing millions of users daily."
       ]
     },
     {
