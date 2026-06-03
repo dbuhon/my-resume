@@ -1,229 +1,247 @@
 {
-  "global": {
-    "contact_me": "Me contacter",
-    "about_me": "À propos de moi",
-    "export_pdf": "CV au format PDF",
-    "skills": "Compétences",
-    "career": "Expérience professionnelle",
-    "education": "Formation",
-    "personal_projects": "Projects personnels",
-    "languages": "Langues"
-  },
-  "info": {
-    "name": "Dimitri Buhon",
-    "job": "Ingénieur logiciels senior",
-    "company": "Unity Technologes",
-    "location": "Montréal, Québec",
-    "email": "dimitri.buhon@gmail.com",
-    "linkedin": "linkedin.com/in/dbuhon",
-    "github": "github.com/dbuhon",
-    "portfolio": "http://buhon.42web.io",
-    "about": ["Salut !"]
-  },
-  "abilities": [
-    {
-      "title": "Web",
-      "skills": [
-        {
-          "techno": "React",
-          "level": 100
-        },
-        {
-          "techno": "JavaScript / TypeScript",
-          "level": 100
-        },
-        {
-          "techno": "HTML5 & CSS3",
-          "detail": "SASS",
-          "level": 100
-        },
-        {
-          "techno": "Testing",
-          "detail": "Jest, RTL, Cypress",
-          "level": 100
-        }
-      ]
-    },
-    {
-      "title": "Mobile",
-      "skills": [
-        {
-          "techno": "Java Android",
-          "detail": "4/5/6/7",
-          "level": 70
-        },
-        {
-          "techno": "Xamarin",
-          "detail": "Natif iOS",
-          "level": 70
-        }
-      ]
-    },
-    {
-      "title": "Version control systems",
-      "skills": [
-        {
-          "techno": "Git",
-          "level": 100
-        }
-      ]
-    },
-    {
-      "title": "Others",
-      "skills": [
-        {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
-          "level": 80
-        },
-        {
-          "techno": "Java",
-          "detail": "JavaFx, Swing, Maven",
-          "level": 80
-        },
-        {
-          "techno": "Unity",
-          "detail": "Hololens",
-          "level": 80
-        }
-      ]
-    }
-  ],
-  "career": [
-    {
-      "company": "Unity Technologies",
-      "location": "Montreal, Québec",
-      "status": "Ingénieur logiciels senior",
-      "date": "2020 - Aujourd'hui",
-      "logo": "unity.png",
-      "description": [
-        "Architecture de la webview pour ads sdk.",
-        "Contribution au <a href='https://dashboard.unity3d.com' target='_blank'>Dashboard Unity</>.",
-        "Maintenance de notre librairie de composants frontend."
-      ]
-    },
-    {
-      "company": "LVL Studio",
-      "location": "Montréal, Québec",
-      "status": "Ingénieur logiciels senior",
-      "date": "2018 - 2020",
-      "logo": "lvl.png",
-      "quote": "LVL Studio conçoit et développe des vitrines média intelligentes pour l’industrie du divertissement à l’aide de sa Plateforme E2™.",
-      "description": [
-        "Création d'un Storefront Manager en <strong>React</strong> avec <strong>Typescript</strong>.<br/>L'outil permet de générer des configurations qui gèrent la mise en forme et le contenu d'applications de diffusion de contenu audio et vidéo.",
-        "Développement d'un framework web en <strong>Typescript</strong> et d'une application de VOD."
-      ]
-    },
-    {
-      "company": "VINCI Construction France (Neos-SDI)",
-      "location": "Paris, France",
-      "status": "Ingénieur logiciels senior",
-      "date": "2017 - 2018",
-      "logo": "vcf.png",
-      "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, réunit un ensemble unique de compétences dans les domaines du bâtiment, du génie civil, de l'hydraulique et des métiers de spécialités.",
-      "description": [
-        "Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
-        "Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
-        "Développement et maintenance d’applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
-        "Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France <strong>(Angular, C#, Dapper)</strong>.",
-        "Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers <strong>(Angular, C#, CQRS)</strong>."
-      ]
-    },
-    {
-      "company": "Ardian (Neos-SDI)",
-      "location": "Paris, France",
-      "status": "Ingénieur logiciels",
-      "date": "2016 - 2017",
-      "logo": "ardian.png",
-      "quote": "Ardian est une société d'investissement privé indépendante qui gère et/ou conseille 65 milliards de dollars d'actifs en Europe, en Amérique du Nord et en Asie.",
-      "description": [
-        "Réalisation d’une application de gestion dédiée à la finance.<br/>Programmation back-end en <strong>C#</strong> avec <strong>Entity Framework</strong>, base de données <strong>SQL</strong>.<br/>Client <strong>AngularJS / TypeScript</strong>.<br/>Tests unitaires <strong>(Fixture, Mock data, TDD)</strong>.<br/>Travail en mode clean code en suivant les best practices de développement.",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "company": "AUSY",
-      "location": "Sèvres, France",
-      "status": "Ingénieur logiciels",
-      "date": "2015 - 2016",
-      "logo": "ausy.png",
-      "quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies.",
-      "description": [
-        "Évolution et maintenance applicative de projets <strong>Java</strong>.<br/>Réalisation d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Écriture de tests fonctionnels et unitaires <strong>Selenium, JBeheave, JUnit (TDD, BDD)</strong>.",
-        "Mise en place d'un serveur d'intégration continue sous <strong>Linux Red Hat</strong>.<br/>Configuration et installation des différents outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de documentation technique.",
-        "Réalisation d'un projet de gestion et complétion de PDF en <strong>Java</strong>, utilisant <strong>iText</strong>."
-      ]
-    },
-    {
-      "company": "Institut du Cerveau et de la Moelle épinière",
-      "location": "Paris, France",
-      "status": "Ingénieur logiciels",
-      "date": "2014 - 2015",
-      "logo": "icm.png",
-      "quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais.",
-      "description": [
-        "Développement de l’Intranet sous <strong>SharePoint 2013</strong>.<br/>Prise en charge du projet et collecte du besoin.<br/>Création de sites et de leurs composants, gestion des droits et fonctionnalités.<br/>Rédaction de documentation technique et formation donnée aux utilisateurs."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "school": "UQAC",
-      "location": "Québec",
-      "diploma": "Maîtrise en informatique",
-      "date": "2015 - 2016",
-      "detail": "Maître ès sciences",
-      "quote": "Le programme de Maîtrise en informatique vise à développer chez l'étudiant des compétences avancées dans des secteurs de pointe de l'informatique. En plus de permettre l'acquisition de connaissances de haut niveau, le programme de maîtrise cherche à développer chez ce dernier ses capacités d'analyse et de synthèse.",
-      "link": {
-        "href": "http://programmes.uqac.ca/3037",
-        "value": "Informations sur la formation",
-        "type": "external"
-      },
-      "logo": "uqac.png"
-    },
-    {
-      "school": "ESGI",
-      "location": "France",
-      "diploma": "Master Architecture logicielle",
-      "date": "2014 - 2016",
-      "detail": "Titre niveau I d'expert en ingénierie de l’informatique et des systèmes d’information",
-      "quote": "La spécialisation en Architecture des logiciels est une formation d'expert sur les méthodes de conception et de réalisation de solutions logicielles répondant aux besoins complexes des entreprises, tous secteurs confondus (finance, industrie, SSII, éditeurs de logiciels…).",
-      "link": {
-        "href": "http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
-        "value": "Informations sur la formation",
-        "type": "external"
-      },
-      "logo": "esgi.png"
-    },
-    {
-      "school": "ESGI",
-      "location": "France",
-      "diploma": "Bachelor Architecture logicielle",
-      "date": "2011 - 2014",
-      "detail": "Titre niveau II de chef de projet logiciel et réseaux",
-      "quote": "Le Cycle Bachelor en informatique de l'ESGI spécialisé en Architecture des Logiciels permet aux étudiants d'acquérir des compétences opérationnelles au travers de nombreux projets pédagogiques, tout en acquérant des compétences d'architecture logicielle (langages, modélisation UML, BDD).",
-      "link": {
-        "href": "http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
-        "value": "Informations sur la formation",
-        "type": "external"
-      },
-      "logo": "esgi.png"
-    }
-  ],
-  "languages": [
-    {
-      "lang": "Français",
-      "level": "Langue maternelle",
-      "flag": "fr.svg"
-    },
-    {
-      "lang": "Anglais",
-      "level": "Bilingue",
-      "flag": "uk.svg"
-    }
-  ]
+	"global": {
+		"contact_me": "Contactez-moi",
+		"about_me": "À propos de moi",
+		"export_pdf": "Exporter en PDF",
+		"skills": "Compétences",
+		"career": "Parcours professionnel",
+		"education": "Formation",
+		"personal_projects": "Projets personnels",
+		"languages": "Langues"
+	},
+	"info": {
+		"name": "Dimitri Buhon",
+		"job": "Principal Software Engineer",
+		"company": "Themis",
+		"location": "Montreal, Québec",
+		"email": "dimitri.buhon@gmail.com",
+		"linkedin": "linkedin.com/in/dbuhon",
+		"github": "github.com/dbuhon",
+		"about": [
+			"Je m'efforce de trouver des solutions simples à des problèmes complexes."
+		]
+	},
+	"abilities": [
+		{
+			"title": "Web",
+			"skills": [
+				{
+					"techno": "React",
+					"level": 100
+				},
+				{
+					"techno": "JavaScript / TypeScript",
+					"level": 100
+				},
+				{
+					"techno": "Architecture frontend",
+					"level": 100
+				},
+				{
+					"techno": "HTML5 & CSS3",
+					"detail": "SASS",
+					"level": 100
+				},
+				{
+					"techno": "Tests",
+					"detail": "Vitest, Jest, RTL, Playwright, Cypress",
+					"level": 100
+				}
+			]
+		},
+		{
+			"title": "Systèmes de contrôle de version",
+			"skills": [
+				{
+					"techno": "Git",
+					"level": 100
+				}
+			]
+		},
+		{
+			"title": "Autres",
+			"skills": [
+				{
+					"techno": "SQL",
+					"detail": "PostgreSQL",
+					"level": 80
+				},
+				{
+					"techno": "Supabase",
+					"level": 80
+				},
+				{
+					"techno": "Ruby",
+					"level": 60
+				}
+			]
+		}
+	],
+	"career": [
+		{
+			"company": "Themis",
+			"location": "Montreal, Québec",
+			"status": "Principal Software Engineer",
+			"date": "2025 - Aujourd'hui",
+			"logo": "themis.png",
+			"quote": "Themis est le premier outil collaboratif de conformité qui aide les entreprises à accélérer leurs partenariats avec des fournisseurs, des banques, des coopératives de crédit et des fintechs.",
+			"description": [
+				"Constitution et recrutement de l'équipe d'ingénierie frontend, avec mise en place d'une culture de haute performance et rehaussement du niveau technique à l'échelle de l'organisation.",
+				"Pilotage de la réarchitecture de l'application web, avec à la clé une meilleure capacité de passage à l'échelle, une maintenance simplifiée et une exécution plus rapide côté développement.",
+				"Définition de la stratégie technique et des orientations d'architecture pour les principales initiatives frontend.",
+				"Direction du développement et de la livraison de fonctionnalités produit stratégiques.",
+				"Création d'une bibliothèque partagée de composants frontend pour renforcer la cohérence, la qualité et la rapidité de développement.",
+				"Introduction de workflows et d'outils d'ingénierie assistés par l'IA, avec un gain de productivité mesurable sans compromis sur la qualité.",
+				"Mise en place de standards et de bonnes pratiques frontend adoptés dans l'ensemble de l'entreprise.",
+				"Collaboration étroite avec la direction afin d'aligner les choix techniques sur les enjeux produit et business."
+			]
+		},
+		{
+			"company": "Arctic Wolf Networks",
+			"location": "Montreal, Québec",
+			"status": "Staff Software Engineer",
+			"date": "2023 - 2025",
+			"logo": "arcticwolf.png",
+			"quote": "Arctic Wolf offre une protection en cybersécurité dynamique 24 h/24 et 7 j/7, adaptée aux besoins spécifiques de votre organisation.",
+			"description": [
+				"Conception du monorepo avec Nx.",
+				"Pilotage du développement de fonctionnalités en React et Golang.",
+				"Amélioration des standards de code à l'échelle de l'entreprise.",
+				"Accompagnement des équipes sur les bonnes pratiques d'ingénierie."
+			]
+		},
+		{
+			"company": "Unity Technologies",
+			"location": "Montreal, Québec",
+			"status": "Staff Software Engineer",
+			"date": "2020 - 2023",
+			"logo": "unity.png",
+			"quote": "Unity est la plateforme de référence pour créer et exploiter des expériences 3D interactives en temps réel (RT3D).",
+			"description": [
+				"Pilotage de la refonte de l'architecture de la webview du SDK Ads, utilisée quotidiennement par des millions d'utilisateurs.",
+				"Pilotage du développement de fonctionnalités pour le <a href='https://dashboard.unity3d.com' target='_blank'>Unity Dashboard</a>.",
+				"Contribution à l'architecture et amélioration des bonnes pratiques de développement.",
+				"Maintenance de la bibliothèque de composants frontend."
+			]
+		},
+		{
+			"company": "LVL Studio",
+			"location": "Montreal, Québec",
+			"status": "Senior software engineer",
+			"date": "2018 - 2020",
+			"logo": "lvl.png",
+			"quote": "LVL conçoit, développe et exploite des solutions technologiques médias pour le marché mondial des médias et du divertissement.",
+			"description": [
+				"Création d'un gestionnaire de vitrines en <strong>React</strong> avec <strong>TypeScript</strong>, permettant aux opérateurs de configurer l'habillage visuel et le contenu d'applications audio et vidéo.",
+				"Développement d'un framework web en <strong>TypeScript</strong>.",
+				"Développement d'applications audio et vidéo à la demande."
+			]
+		},
+		{
+			"company": "VINCI Construction",
+			"location": "Paris, France",
+			"status": "Senior software engineer",
+			"date": "2017 - 2018",
+			"logo": "vcf.png",
+			"quote": "VINCI Construction conçoit et réalise des bâtiments et des infrastructures qui répondent aux grands enjeux de société : réchauffement climatique, croissance démographique et mobilité croissante.",
+			"description": [
+				"Recherche et développement autour des lunettes de réalité mixte <strong>Microsoft HoloLens</strong>.<br/>Développement d'une application en réalité mixte avec <strong>Unity</strong> et <strong>C#</strong> pour faciliter la rénovation de chantiers grâce à la mise en évidence virtuelle de zones clés.",
+				"Développement d'une application <strong>Angular</strong> et <strong>Electron</strong> affichée sur deux écrans tactiles géants, conçue pour mettre en valeur les projets menés par VINCI Construction lors d'événements et de salons.",
+				"Développement et maintenance d'applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> destinées au suivi des règles de sécurité, d'environnement et de qualité sur les chantiers.",
+				"Développement de l'outil de gestion des objectifs métier et organisationnels de VINCI Construction France <strong>(Angular, C#, Dapper)</strong>.",
+				"Conception d'un outil de prise de notes pour les ouvriers du bâtiment afin de consigner les anomalies <strong>(Angular, C#, CQRS)</strong>."
+			]
+		},
+		{
+			"company": "Ardian",
+			"location": "Paris, France",
+			"status": "Software engineer",
+			"date": "2016 - 2017",
+			"logo": "ardian.png",
+			"quote": "Ardian est un acteur mondial majeur de l'investissement privé, gérant et conseillant plus de 90 milliards de dollars d'actifs pour des gouvernements, des institutions financières et des particuliers fortunés à travers le monde.",
+			"description": [
+				"Développement d'une application de gestion financière.<br/>Backend en <strong>C#</strong> avec <strong>Entity Framework</strong> et base de données <strong>SQL</strong>.<br/>Frontend en <strong>AngularJS/TypeScript</strong>.<br/>Tests unitaires <strong>(fixtures, données simulées, TDD)</strong>.<br/>Développement dans le respect des bonnes pratiques d'ingénierie."
+			]
+		},
+		{
+			"company": "AUSY",
+			"location": "Sèvres, France",
+			"status": "Software engineer",
+			"date": "2015 - 2016",
+			"logo": "ausy.png",
+			"quote": "AUSY est une société internationale de conseil et d'ingénierie en technologies avancées, avec un modèle d'affaires fondé sur l'innovation et la complémentarité des services entre systèmes d'information et systèmes industriels.",
+			"description": [
+				"Développement et maintenance de projets <strong>Java</strong>.<br/>Création d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Rédaction de tests fonctionnels et unitaires avec <strong>Selenium, JBehave, JUnit (TDD, BDD)</strong>.",
+				"Mise en place d'un serveur d'intégration continue sous <strong>Red Hat Linux</strong>.<br/>Installation et configuration de plusieurs outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de la documentation technique.",
+				"Développement d'un outil de gestion et de remplissage automatique de PDF en <strong>Java</strong>, avec <strong>iText</strong>."
+			]
+		},
+		{
+			"company": "Institute for Brain and Spinal Cord",
+			"location": "Paris, France",
+			"status": "Software engineer",
+			"date": "2014 - 2015",
+			"logo": "icm.png",
+			"quote": "L'Institute for Brain and Spinal Cord est un centre international de recherche sur le cerveau et la moelle épinière, dont le concept et la structure innovants en font un institut unique au monde.",
+			"description": [
+				"Développement d'un intranet avec <strong>SharePoint</strong>.<br/>Gestion de projet, recueil des besoins utilisateurs et animation de sessions de formation.<br/>Création de sites et de composants, ainsi que gestion des permissions.<br/>Rédaction de documentation technique."
+			]
+		}
+	],
+	"education": [
+		{
+			"school": "UQAC",
+			"location": "Québec",
+			"diploma": "Maîtrise en informatique",
+			"detail": "",
+			"quote": "",
+			"date": "2015 - 2016",
+			"link": {
+				"href": "http://programmes.uqac.ca/3037",
+				"value": "Plus d'informations",
+				"type": "external"
+			},
+			"logo": "uqac.png"
+		},
+		{
+			"school": "ESGI",
+			"location": "France",
+			"diploma": "Maîtrise en architecture logicielle",
+			"detail": "",
+			"quote": "",
+			"date": "2014 - 2016",
+			"link": {
+				"href": "http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
+				"value": "Plus d'informations",
+				"type": "external"
+			},
+			"logo": "esgi.png"
+		},
+		{
+			"school": "ESGI",
+			"location": "France",
+			"diploma": "Baccalauréat en architecture logicielle",
+			"detail": "",
+			"quote": "",
+			"date": "2011 - 2014",
+			"link": {
+				"href": "http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
+				"value": "Plus d'informations",
+				"type": "external"
+			},
+			"logo": "esgi.png"
+		}
+	],
+	"languages": [
+		{
+			"lang": "Français",
+			"level": "Langue maternelle",
+			"flag": "fr.svg"
+		},
+		{
+			"lang": "Anglais",
+			"level": "Bilingue",
+			"flag": "uk.svg"
+		}
+	]
 }
