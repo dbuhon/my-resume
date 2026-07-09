@@ -166,7 +166,7 @@
     {
       "title": "Polling Social Network",
       "detail": "",
-      "logo": "polling-social-network.png",
+      "logo": "poll.png",
       "tags": ["Next.js", "Supabase", "PostgreSQL", "Nx", "CI/CD"],
       "quote": "",
       "description": [
