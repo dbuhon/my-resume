@@ -1,10 +1,12 @@
 <div class="container" [ngClass]="{'noLogo': presentation.logo == null}">
-    <div class="title">
-        <div class="logo">
-            <img *ngIf="presentation.logo" [src]="'./assets/logos/' + presentation.logo"/>
+    <div *ngIf="presentation.logo || presentation.title" class="title">
+        <div class="logo" *ngIf="presentation.logo">
+            <img [src]="'./assets/logos/' + presentation.logo"/>
         </div>
-        <app-label [title]="presentation.title" [subtitle]="presentation.subtitle"></app-label>
+
+        <app-label *ngIf="presentation.title || presentation.subtitle" [title]="presentation.title" [subtitle]="presentation.subtitle"></app-label>
     </div>
+
     <div class="tags">
         <div *ngFor="let tag of presentation.tags">
             <div *ngIf="tag" class="tag">{{ tag }}</div>

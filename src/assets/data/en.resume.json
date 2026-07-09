@@ -17,13 +17,38 @@
     "email": "dimitri.buhon@gmail.com",
     "linkedin": "linkedin.com/in/dbuhon",
     "github": "github.com/dbuhon",
+    "portfolio": "https://dbuhon.github.io/my-resume/",
     "about": [
-      "I strive to find simple solutions to complex problems."
+      "Software engineer with 10+ years of experience, from early-stage startups to large orgs, on products used by millions of people. I strive to find simple solutions to complex problems."
     ]
   },
   "abilities": [
     {
-      "title": "Web",
+      "title": "Leadership & Architecture",
+      "skills": [
+        {
+          "techno": "Technical Leadership",
+          "detail": "Team building, hiring, mentoring",
+          "level": 100
+        },
+        {
+          "techno": "System & Frontend Architecture",
+          "detail": "Large-scale rearchitectures, monorepos, component systems",
+          "level": 100
+        },
+        {
+          "techno": "Engineering Standards & Best Practices",
+          "level": 100
+        },
+        {
+          "techno": "Cross-functional Collaboration",
+          "detail": "Product, design, and leadership alignment",
+          "level": 80
+        }
+      ]
+    },
+    {
+      "title": "Frontend Engineering",
       "skills": [
         {
           "techno": "React",
@@ -31,10 +56,6 @@
         },
         {
           "techno": "JavaScript / TypeScript",
-          "level": 100
-        },
-        {
-          "techno": "Frontend Architecture",
           "level": 100
         },
         {
@@ -59,20 +80,17 @@
       ]
     },
     {
-      "title": "Others",
+      "title": "Backend",
       "skills": [
         {
           "techno": "SQL",
-          "detail": "PostgreSQL",
+          "detail": "PostgreSQL, RPC, RLS",
           "level": 80
         },
         {
-          "techno": "Supabase",
+          "techno": "Other",
+          "detail": "Supabase, Auth, Deno, Edge Functions",
           "level": 80
-        },
-        {
-          "techno": "Ruby",
-          "level": 60
         }
       ]
     }
@@ -84,16 +102,19 @@
       "status": "Principal Software Engineer",
       "date": "2025 - Today",
       "logo": "themis.png",
-      "quote": "Themis is the first compliance collaboration tool that helps companies accelerate partnerships with vendors, banks, credit unions, and fintechs.",
+      "quote": "Themis is the first compliance collaboration tool that helps companies accelerate partnerships with vendors, banks, credit unions, and fintechs, and is now used by more than 50 banks, credit unions, and fintechs, serving thousands of users daily.",
       "description": [
-        "Built and hired the frontend engineering team, establishing a high-performance culture and raising the technical bar across the organization.",
-        "Led the successful rearchitecture of the web application, improving scalability, maintainability, and developer velocity.",
-        "Drove technical strategy and architecture decisions across major frontend initiatives.",
-        "Led the development and delivery of key product features.",
-        "Built a shared frontend component library to improve consistency, quality, and development speed.",
-        "Introduced AI-powered engineering workflows and tools that increased team productivity while maintaining high quality standards.",
-        "Established frontend engineering standards and best practices adopted across the company.",
-        "Worked closely with leadership to align technical decisions with product and business goals."
+        "Built and hired the frontend engineering team from scratch, growing it to 6 engineers, and set the technical strategy and architecture for the company, working directly with the founders on roadmap and tradeoffs.",
+        "Led the end-to-end rearchitecture of the web app from a monolithic to a modular structure, improving scalability, code quality, and separation of concerns.",
+        "Migrated incrementally, module by module, behind route-level boundaries and feature flags, avoiding a feature freeze.",
+        "That rearchitecture helped cut CI build times from ~40 to 10 minutes, reclaiming an estimated $150K+ per year in engineering time and CI compute costs previously lost to CI waits and reruns.",
+        "Improved page load times from as much as a minute down to ~3 seconds by adding caching and optimistic UI updates.",
+        "Built a set of shared libraries (UI, components, queries) used across more than 40 features, improving UI consistency and increasing feature delivery by more than 100%.",
+        "Led development of several major features, including a configurable dashboard with widgets and charts and a fully configurable automation system covering notifications, recurring tasks, and more.",
+        "Established the frontend engineering standards, coding practices, and code review guidelines the team works from.",
+        "Shaped how the team works day to day: moved standups to a quicker, async format, reorganized the team's Linear workflow, and introduced project planning and estimation practices.",
+        "Introduced AI-assisted workflows: MCP integrations with Git, Linear, and Slack, plus automated code review.",
+        "Built a Slack app used internally that automatically rotates and assigns on-call each week."
       ]
     },
     {
@@ -104,10 +125,13 @@
       "logo": "arcticwolf.png",
       "quote": "Arctic Wolf delivers dynamic 24x7 cybersecurity protection tailored to the specific needs of your organization.",
       "description": [
-        "Architected the monorepo with Nx.",
-        "Led feature development using React and Golang.",
-        "Improved coding standards across the company.",
-        "Mentored teams on best practices."
+        "Led the migration to an Nx monorepo, unifying several frontend dashboards into a single, consistent codebase, adopted across an engineering org of hundreds of engineers at a company that grew to 4,000+ employees serving 10,000+ customer organizations.",
+        "Cut CI build times as part of the monorepo migration, meaningfully reducing engineering time lost to CI waits and compute costs across the org.",
+        "Wrote an RFC and gave an internal tech talk proposing the monorepo migration to build cross-team buy-in before rollout.",
+        "Raised coding standards company-wide with linting, testing, and architecture guidelines adopted across multiple orgs.",
+        "Built a shared component library used by every team on the unified dashboard.",
+        "Owned frontend architecture on the platform team and led feature delivery across multiple teams (React, Golang), including hands-on help shipping other teams' features.",
+        "Mentored my team (~5 engineers) on frontend architecture and testing, onboarded leads from 5 other teams onto the new standards, gave internal tech talks reaching dozens of engineers, and carried on-call."
       ]
     },
     {
@@ -118,10 +142,11 @@
       "logo": "unity.png",
       "quote": "Unity is the world's leading platform for creating and operating interactive, real-time 3D (RT3D) content.",
       "description": [
-        "Led the architecture rewrite of the Ads SDK webview, used daily by millions of users.",
-        "Led feature development for the <a href='https://dashboard.unity3d.com' target='_blank'>Unity Dashboard</a>.",
-        "Contributed to the architecture and improved development best practices.",
-        "Maintained the frontend component library."
+        "Led a full rewrite of the Ads SDK webview, handling millions of requests a day, after the legacy codebase had become too complex to maintain or ship new features on.",
+        "Led development of several major features (including a change-history feature) and contributed to others for the <a href='https://dashboard.unity3d.com' target='_blank'>Unity Dashboard</a>, used by hundreds of engineers across dozens of teams and millions of end users.",
+        "Helped shape platform architecture decisions and pushed teams to adopt better development practices, including TypeScript and automated linting.",
+        "Wrote RFCs and presented findings in internal tech talks to evaluate solutions and drive adoption across teams, including for state management, caching, and more.",
+        "Maintained the shared frontend component library underpinning the Unity Dashboard and other product surfaces."
       ]
     },
     {
@@ -132,59 +157,43 @@
       "logo": "lvl.png",
       "quote": "LVL designs, builds and operates media technology solutions for the global media and entertainment market.",
       "description": [
-        "Created a Storefront Manager in <strong>React</strong> with <strong>TypeScript</strong>. The tool allowed operators to configure the visual treatment and content of audio and video applications.",
-        "Built a web framework with <strong>TypeScript</strong>.",
-        "Developed audio and video on-demand applications."
+        "Built a configurable Netflix-like web app (<strong>React</strong>, <strong>TypeScript</strong>) letting operators customize content, and video/audio playback without writing code.",
+        "Built a web framework with <strong>TypeScript</strong>."
       ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Polling Social Network",
+      "detail": "",
+      "logo": "polling-social-network.png",
+      "tags": ["Next.js", "Supabase", "PostgreSQL", "Nx", "CI/CD"],
+      "quote": "",
+      "description": [
+        "Set up an Nx monorepo with a Next.js frontend, CI, and automated deployment.",
+        "Built the backend: Supabase Postgres RPCs, edge functions, row-level security, embedding-based semantic search.",
+        "Implemented authentication, including email, Google, Twitter, and phone sign-up.",
+        "Designed and built the whole platform, from database schema to UI.",
+        "Deployed and running in production."
+      ],
+      "links": []
     },
     {
-      "company": "VINCI Construction",
-      "location": "Paris, France",
-      "status": "Senior software engineer",
-      "date": "2017 - 2018",
-      "logo": "vcf.png",
-      "quote": "VINCI Construction designs and builds structures and infrastructure that address major issues facing society - global warming, population growth and increasing mobility.",
+      "title": "On-call Rotations",
+      "tags": ["TypeScript", "Slack API", "Railway"],
+      "quote": "",
+      "logo": "on-call-rotations.png",
       "description": [
-        "Research and development for mixed reality glasses, <strong>Microsoft HoloLens</strong>.<br/>Development of a mixed-reality application using <strong>Unity</strong> and <strong>C#</strong> that helped with construction site renovations by virtually highlighting areas.",
-        "Built an <strong>Angular</strong> and <strong>Electron</strong> application displayed on two giant touch screens. The application served as a showcase for the various projects carried out by VINCI Construction and was presented at events and exhibitions.",
-        "Developed and maintained web and mobile applications <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> to monitor compliance with safety, environmental, and quality rules on construction sites.",
-        "Developed the VINCI Construction France business and organizational objectives management tool <strong>(Angular, C#, Dapper)</strong>.",
-        "Development of a note-taking tool for construction workers to log issues <strong>(Angular, C#, CQRS)</strong>."
-      ]
-    },
-    {
-      "company": "Ardian",
-      "location": "Paris, France",
-      "status": "Software engineer",
-      "date": "2016 - 2017",
-      "logo": "ardian.png",
-      "quote": "Ardian is a world-leading private investment house, managing and advising more than $90bn of assets for governments, financial institutions and high net worth individuals globally.",
-      "description": [
-        "Development of a financial management application.<br/>Back-end programming in <strong>C#</strong> with <strong>Entity Framework</strong> and a <strong>SQL</strong> database.<br/>Front-end with <strong>AngularJS/TypeScript</strong>.<br/>Unit tests <strong>(Fixtures, mock data, TDD)</strong>.<br/>Coding while following development best practices."
-      ]
-    },
-    {
-      "company": "AUSY",
-      "location": "Sèvres, France",
-      "status": "Software engineer",
-      "date": "2015 - 2016",
-      "logo": "ausy.png",
-      "quote": "AUSY is an international Consulting and Engineering firm in Advanced Technologies with a business model based on innovation and complementary services between information systems and industrial systems.",
-      "description": [
-        "Development and maintenance of <strong>Java</strong> projects.<br/>Built a <strong>Maven</strong> project with <strong>Sculptor Generator</strong>.<br/>Writing functional and unit tests with <strong>Selenium, JBehave, JUnit (TDD, BDD)</strong>.",
-        "Set up a <strong>Red Hat Linux</strong> continuous integration server.<br/>Configured and installed various tools on the server <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configured <strong>Jenkins</strong>.<br/>Documentation of technical specifications.",
-        "Development of a PDF management and auto-filling tool in <strong>Java</strong>, using <strong>iText</strong>."
-      ]
-    },
-    {
-      "company": "Institute for Brain and Spinal Cord",
-      "location": "Paris, France",
-      "status": "Software engineer",
-      "date": "2014 - 2015",
-      "logo": "icm.png",
-      "quote": "The Institute for Brain and Spinal Cord is an international brain and spinal cord research center whose innovative concept and structure make it the only institute of its kind in the world.",
-      "description": [
-        "Intranet development with <strong>SharePoint</strong>.<br/>Project management, evaluation of user needs, and leading training sessions.<br/>Creation of sites and components, and management of permissions.<br/>Writing technical documentation."
+        "Built a Slack app that automatically selects and rotates the on-call person each week based on a configurable queue.",
+        "Keeps a Slack user group in sync with the current on-call person, so mentions always reach the right person.",
+        "Deployed on Railway with a freemium pricing model."
+      ],
+      "links": [
+        {
+          "type": "external",
+          "href": "https://rotation-production.up.railway.app/",
+          "value": "View project"
+        }
       ]
     }
   ],

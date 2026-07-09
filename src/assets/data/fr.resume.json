@@ -17,13 +17,38 @@
 		"email": "dimitri.buhon@gmail.com",
 		"linkedin": "linkedin.com/in/dbuhon",
 		"github": "github.com/dbuhon",
+		"portfolio": "https://dbuhon.github.io/my-resume/",
 		"about": [
-			"Je m'efforce de trouver des solutions simples à des problèmes complexes."
+			"Ingénieur logiciel avec plus de 10 ans d'expérience, des startups en démarrage jusqu'à de grandes organisations, sur des produits utilisés par des millions de personnes. Je m'efforce de trouver des solutions simples à des problèmes complexes."
 		]
 	},
 	"abilities": [
 		{
-			"title": "Web",
+			"title": "Leadership & Architecture",
+			"skills": [
+				{
+					"techno": "Leadership technique",
+					"detail": "Constitution d'équipe, recrutement, mentorat",
+					"level": 100
+				},
+				{
+					"techno": "Architecture système et frontend",
+					"detail": "Réarchitectures à grande échelle, monorepos, systèmes de composants",
+					"level": 100
+				},
+				{
+					"techno": "Standards et bonnes pratiques d'ingénierie",
+					"level": 100
+				},
+				{
+					"techno": "Collaboration transversale",
+					"detail": "Alignement produit, design et direction",
+					"level": 80
+				}
+			]
+		},
+		{
+			"title": "Frontend",
 			"skills": [
 				{
 					"techno": "React",
@@ -31,10 +56,6 @@
 				},
 				{
 					"techno": "JavaScript / TypeScript",
-					"level": 100
-				},
-				{
-					"techno": "Architecture frontend",
 					"level": 100
 				},
 				{
@@ -59,20 +80,17 @@
 			]
 		},
 		{
-			"title": "Autres",
+			"title": "Backend",
 			"skills": [
 				{
 					"techno": "SQL",
-					"detail": "PostgreSQL",
+					"detail": "PostgreSQL, RPC, RLS",
 					"level": 80
 				},
 				{
-					"techno": "Supabase",
+					"techno": "Autre",
+					"detail": "Supabase, Auth, Deno, Edge Functions",
 					"level": 80
-				},
-				{
-					"techno": "Ruby",
-					"level": 60
 				}
 			]
 		}
@@ -84,16 +102,19 @@
 			"status": "Principal Software Engineer",
 			"date": "2025 - Aujourd'hui",
 			"logo": "themis.png",
-			"quote": "Themis est le premier outil collaboratif de conformité qui aide les entreprises à accélérer leurs partenariats avec des fournisseurs, des banques, des coopératives de crédit et des fintechs.",
+			"quote": "Themis est le premier outil collaboratif de conformité qui aide les entreprises à accélérer leurs partenariats avec des fournisseurs, des banques, des coopératives de crédit et des fintechs, et est maintenant utilisé par plus de 50 banques, coopératives de crédit et fintechs, au service de plusieurs milliers d'utilisateurs quotidiennement.",
 			"description": [
-				"Constitution et recrutement de l'équipe d'ingénierie frontend, avec mise en place d'une culture de haute performance et rehaussement du niveau technique à l'échelle de l'organisation.",
-				"Pilotage de la réarchitecture de l'application web, avec à la clé une meilleure capacité de passage à l'échelle, une maintenance simplifiée et une exécution plus rapide côté développement.",
-				"Définition de la stratégie technique et des orientations d'architecture pour les principales initiatives frontend.",
-				"Direction du développement et de la livraison de fonctionnalités produit stratégiques.",
-				"Création d'une bibliothèque partagée de composants frontend pour renforcer la cohérence, la qualité et la rapidité de développement.",
-				"Introduction de workflows et d'outils d'ingénierie assistés par l'IA, avec un gain de productivité mesurable sans compromis sur la qualité.",
-				"Mise en place de standards et de bonnes pratiques frontend adoptés dans l'ensemble de l'entreprise.",
-				"Collaboration étroite avec la direction afin d'aligner les choix techniques sur les enjeux produit et business."
+				"Constitué et recruté l'équipe d'ingénierie frontend à partir de zéro, jusqu'à 6 personnes, et défini la stratégie technique et l'architecture de l'entreprise en collaboration directe avec les fondateurs.",
+				"Mené la réarchitecture de bout en bout de l'application web, d'une structure monolithique vers une architecture modulaire, améliorant la scalabilité, la qualité du code et la séparation des responsabilités.",
+				"Migration incrémentale, module par module, derrière des frontières au niveau des routes et des feature flags, évitant un gel de fonctionnalités.",
+				"Cette réarchitecture a contribué à réduire les temps de build CI d'environ 40 à 10 minutes, récupérant un estimé de plus de 150 000 $ par année en temps d'ingénierie et en coûts d'infrastructure CI auparavant perdus en attentes et reprises de builds.",
+				"Réduit les temps de chargement de pages allant jusqu'à une minute à environ 3 secondes, grâce à une mise en cache côté frontend et des mises à jour optimistes.",
+				"Bâti un ensemble de bibliothèques partagées (UI, composants, requêtes) adoptées dans une quarantaine de modules, améliorant la cohérence UI et augmentant la cadence de livraison de fonctionnalités de plus de 100 % par an.",
+				"Mené le développement de plusieurs fonctionnalités majeures, dont un tableau de bord configurable avec widgets et graphiques, et un système d'automatisation entièrement configurable couvrant les notifications, les tâches récurrentes, et plus encore.",
+				"Établi les standards d'ingénierie frontend, les pratiques de code et les lignes directrices de revue de code sur lesquels l'équipe s'appuie.",
+				"Façonné le fonctionnement quotidien de l'équipe : standups passés à un format rapide et asynchrone, réorganisation du workflow Linear de l'équipe, et introduction de pratiques de planification de projet et d'estimation.",
+				"Introduit des workflows assistés par l'IA : intégrations MCP avec Git, Linear et Slack, plus de la revue de code automatisée.",
+				"Bâti une application Slack qui assigne automatiquement une personne d'astreinte chaque semaine."
 			]
 		},
 		{
@@ -104,10 +125,13 @@
 			"logo": "arcticwolf.png",
 			"quote": "Arctic Wolf offre une protection en cybersécurité dynamique 24 h/24 et 7 j/7, adaptée aux besoins spécifiques de votre organisation.",
 			"description": [
-				"Conception du monorepo avec Nx.",
-				"Pilotage du développement de fonctionnalités en React et Golang.",
-				"Amélioration des standards de code à l'échelle de l'entreprise.",
-				"Accompagnement des équipes sur les bonnes pratiques d'ingénierie."
+				"Mené la migration vers un monorepo Nx, unifiant plusieurs tableaux de bord frontend en une base de code cohérente et unique, adoptée à l'échelle d'une organisation d'ingénierie de plusieurs centaines d'ingénieurs, au sein d'une entreprise ayant crû à plus de 4 000 employés, au service de plus de 10 000 organisations clientes.",
+				"Réduit les temps de build CI dans le cadre de la migration vers le monorepo, diminuant de façon significative le temps d'ingénierie perdu en attentes CI et les coûts d'infrastructure à l'échelle de l'organisation.",
+				"Rédigé un RFC et présenté une conférence technique interne proposant la migration vers le monorepo afin d'obtenir l'adhésion des équipes avant le déploiement.",
+				"Standards de code relevés à l'échelle de l'entreprise avec des lignes directrices de linting, de tests et d'architecture adoptées par plusieurs organisations.",
+				"Bâti une bibliothèque de composants partagée utilisée par chaque équipe du tableau de bord unifié.",
+				"Responsable de l'architecture frontend au sein de l'équipe plateforme et de la livraison de fonctionnalités à travers plusieurs équipes (React, Golang), incluant un support direct pour livrer les fonctionnalités d'autres équipes.",
+				"Encadré mon équipe (~5 ingénieurs) sur l'architecture frontend et les tests, intégré les leads de 5 autres équipes aux nouveaux standards, donné des conférences techniques internes réunissant des dizaines d'ingénieurs, et assuré des astreintes."
 			]
 		},
 		{
@@ -118,10 +142,11 @@
 			"logo": "unity.png",
 			"quote": "Unity est la plateforme de référence pour créer et exploiter des expériences 3D interactives en temps réel (RT3D).",
 			"description": [
-				"Pilotage de la refonte de l'architecture de la webview du SDK Ads, utilisée quotidiennement par des millions d'utilisateurs.",
-				"Pilotage du développement de fonctionnalités pour le <a href='https://dashboard.unity3d.com' target='_blank'>Unity Dashboard</a>.",
-				"Contribution à l'architecture et amélioration des bonnes pratiques de développement.",
-				"Maintenance de la bibliothèque de composants frontend."
+				"Mené une refonte complète de la webview du SDK Ads, traitant des millions de requêtes par jour, après que le code existant soit devenu trop complexe à maintenir ou pour y livrer de nouvelles fonctionnalités.",
+				"Mené le développement de plusieurs fonctionnalités majeures (dont un historique des changements) et contribué à d'autres pour le <a href='https://dashboard.unity3d.com' target='_blank'>Unity Dashboard</a>, utilisé par des centaines d'ingénieurs répartis en dizaines d'équipes et des millions d'utilisateurs finaux.",
+				"Contribué à orienter les décisions d'architecture de la plateforme et poussé les équipes à adopter de meilleures pratiques de développement, dont TypeScript et le linting automatisé.",
+				"Rédigé des RFC et présenté les conclusions lors de conférences techniques internes pour évaluer des solutions et favoriser leur adoption entre équipes, notamment pour la gestion d'état, la mise en cache, et plus encore.",
+				"Maintenu la bibliothèque de composants frontend partagée à la base du Unity Dashboard et d'autres surfaces produit."
 			]
 		},
 		{
@@ -132,59 +157,43 @@
 			"logo": "lvl.png",
 			"quote": "LVL conçoit, développe et exploite des solutions technologiques médias pour le marché mondial des médias et du divertissement.",
 			"description": [
-				"Création d'un gestionnaire de vitrines en <strong>React</strong> avec <strong>TypeScript</strong>, permettant aux opérateurs de configurer l'habillage visuel et le contenu d'applications audio et vidéo.",
-				"Développement d'un framework web en <strong>TypeScript</strong>.",
-				"Développement d'applications audio et vidéo à la demande."
+				"Bâti un outil de configuration sans code (<strong>React</strong>, <strong>TypeScript</strong>) permettant aux opérateurs de créer leur propre application de streaming façon Netflix, en personnalisant le contenu, la mise en page en rangées (swimlanes) et la lecture vidéo/audio.",
+				"Développement d'un framework web en <strong>TypeScript</strong>."
 			]
+		}
+	],
+	"projects": [
+		{
+			"title": "Réseau social de sondages",
+			"detail": "",
+			"logo": "poll.png",
+			"tags": ["Next.js", "Supabase", "PostgreSQL", "Nx", "CI/CD"],
+			"quote": "",
+			"description": [
+				"Mis en place un monorepo Nx avec un frontend Next.js, un pipeline CI et un déploiement automatisé.",
+				"Développé le backend : RPC Postgres sur Supabase, edge functions, sécurité au niveau des lignes (RLS) et recherche sémantique par embeddings.",
+				"Implémenté l'authentification, incluant courriel, Google, Twitter et l'inscription par téléphone.",
+				"Conçu et bâti la plateforme seul, du schéma de base de données jusqu'à l'interface.",
+				"Déployé et en production."
+			],
+			"links": []
 		},
 		{
-			"company": "VINCI Construction",
-			"location": "Paris, France",
-			"status": "Senior software engineer",
-			"date": "2017 - 2018",
-			"logo": "vcf.png",
-			"quote": "VINCI Construction conçoit et réalise des bâtiments et des infrastructures qui répondent aux grands enjeux de société : réchauffement climatique, croissance démographique et mobilité croissante.",
+			"title": "Rotations d'astreinte",
+			"detail": "Application Slack qui automatise la gestion des rotations d'astreinte pour les équipes, développée sur mon temps libre et adoptée par la suite en interne chez Themis",
+			"tags": ["TypeScript", "Slack API", "Railway"],
+			"quote": "",
 			"description": [
-				"Recherche et développement autour des lunettes de réalité mixte <strong>Microsoft HoloLens</strong>.<br/>Développement d'une application en réalité mixte avec <strong>Unity</strong> et <strong>C#</strong> pour faciliter la rénovation de chantiers grâce à la mise en évidence virtuelle de zones clés.",
-				"Développement d'une application <strong>Angular</strong> et <strong>Electron</strong> affichée sur deux écrans tactiles géants, conçue pour mettre en valeur les projets menés par VINCI Construction lors d'événements et de salons.",
-				"Développement et maintenance d'applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> destinées au suivi des règles de sécurité, d'environnement et de qualité sur les chantiers.",
-				"Développement de l'outil de gestion des objectifs métier et organisationnels de VINCI Construction France <strong>(Angular, C#, Dapper)</strong>.",
-				"Conception d'un outil de prise de notes pour les ouvriers du bâtiment afin de consigner les anomalies <strong>(Angular, C#, CQRS)</strong>."
-			]
-		},
-		{
-			"company": "Ardian",
-			"location": "Paris, France",
-			"status": "Software engineer",
-			"date": "2016 - 2017",
-			"logo": "ardian.png",
-			"quote": "Ardian est un acteur mondial majeur de l'investissement privé, gérant et conseillant plus de 90 milliards de dollars d'actifs pour des gouvernements, des institutions financières et des particuliers fortunés à travers le monde.",
-			"description": [
-				"Développement d'une application de gestion financière.<br/>Backend en <strong>C#</strong> avec <strong>Entity Framework</strong> et base de données <strong>SQL</strong>.<br/>Frontend en <strong>AngularJS/TypeScript</strong>.<br/>Tests unitaires <strong>(fixtures, données simulées, TDD)</strong>.<br/>Développement dans le respect des bonnes pratiques d'ingénierie."
-			]
-		},
-		{
-			"company": "AUSY",
-			"location": "Sèvres, France",
-			"status": "Software engineer",
-			"date": "2015 - 2016",
-			"logo": "ausy.png",
-			"quote": "AUSY est une société internationale de conseil et d'ingénierie en technologies avancées, avec un modèle d'affaires fondé sur l'innovation et la complémentarité des services entre systèmes d'information et systèmes industriels.",
-			"description": [
-				"Développement et maintenance de projets <strong>Java</strong>.<br/>Création d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Rédaction de tests fonctionnels et unitaires avec <strong>Selenium, JBehave, JUnit (TDD, BDD)</strong>.",
-				"Mise en place d'un serveur d'intégration continue sous <strong>Red Hat Linux</strong>.<br/>Installation et configuration de plusieurs outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de la documentation technique.",
-				"Développement d'un outil de gestion et de remplissage automatique de PDF en <strong>Java</strong>, avec <strong>iText</strong>."
-			]
-		},
-		{
-			"company": "Institute for Brain and Spinal Cord",
-			"location": "Paris, France",
-			"status": "Software engineer",
-			"date": "2014 - 2015",
-			"logo": "icm.png",
-			"quote": "L'Institute for Brain and Spinal Cord est un centre international de recherche sur le cerveau et la moelle épinière, dont le concept et la structure innovants en font un institut unique au monde.",
-			"description": [
-				"Développement d'un intranet avec <strong>SharePoint</strong>.<br/>Gestion de projet, recueil des besoins utilisateurs et animation de sessions de formation.<br/>Création de sites et de composants, ainsi que gestion des permissions.<br/>Rédaction de documentation technique."
+				"Développé une application Slack qui sélectionne et fait tourner automatiquement la personne d'astreinte chaque semaine selon une file configurable.",
+				"Maintient un groupe d'utilisateurs Slack synchronisé avec la personne d'astreinte actuelle, pour que les mentions atteignent toujours la bonne personne.",
+				"Déployé sur Railway avec un modèle de tarification freemium."
+			],
+			"links": [
+				{
+					"type": "external",
+					"href": "https://rotation-production.up.railway.app/",
+					"value": "Voir le projet"
+				}
 			]
 		}
 	],

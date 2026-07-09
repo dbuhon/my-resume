@@ -74,7 +74,14 @@
       }
 
       .container {
-        height: 15px;
+        height: 20px;
+      }
+
+      .detail {
+        margin: 10px 25px;
+        padding: 5px 20px;
+        color: $medium;
+        font-style: italic;
       }
     }
   }

@@ -19,6 +19,7 @@ export class ProjectsComponent {
     presentation.description = project.description;
     presentation.tags = project.tags;
     presentation.links = project.links;
+    presentation.logo = project.logo;
     return presentation;
   }
 }

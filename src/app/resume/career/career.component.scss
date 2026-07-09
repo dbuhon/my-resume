@@ -6,10 +6,6 @@ app-presentation {
     border-bottom: 1px solid $light;
 }
 
-app-presentation:nth-child(2) {
-    padding-top: 0 !important;
-}
-
 app-presentation:last-child {
     border-bottom: none;
     padding-bottom: 0;

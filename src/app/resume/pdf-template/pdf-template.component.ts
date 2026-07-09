@@ -26,13 +26,8 @@ export class PDFTemplateComponent implements OnInit {
   }
 
   private formatCareerData(resume: Resume) {
-    resume.career = resume.career.filter(
-      (career) => career.description && career.description.length > 0
-    );
-
     resume.career.forEach((job) => {
-      job.quote = null;
-      job.location = null;
+      job.location = "";
     });
   }
 }
